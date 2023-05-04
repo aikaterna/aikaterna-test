@@ -10,7 +10,7 @@ class Test:
 	@commands.command(pass_context=True)
 	async def test(self, ctx):
 		"""I really hope you didn't install this."""
-		await self.bot.say("\N{WHITE MEDIUM STAR}")
+		await self.bot.say("\N{CAT}")
 
 def setup(bot):
 	n = Test(bot)
